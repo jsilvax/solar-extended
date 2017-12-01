@@ -1,0 +1,23 @@
+{
+    "name": "solar-extended",
+    "displayName": "solar-extended",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "no",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+    "displayName": "solar-extended",
+                "label": "solar-extended",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solar-extended-theme.json"
+            }
+        ]
+    }
+}
