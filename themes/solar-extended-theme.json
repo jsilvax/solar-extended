@@ -51,7 +51,9 @@
 				"variable.language",
 				// ${} template literal 
 				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js"
+				"punctuation.definition.template-expression.end.js",
+				"meta.template.expression.js",
+				"meta.embedded.line.js"
 			],
 			"settings": {
 				"foreground": "#268BD2"
@@ -172,7 +174,6 @@
 				"meta.object-literal.key.js",
 				"punctuation.separator.comma.js",
 				"meta.function.expression.js",
-				"string.template.js",
 				"meta.function-call.js",
 				"source.js"
 			],
@@ -247,10 +248,11 @@
 			}
 		},
 		{
-			"name": "Quoted String",
+			"name": "Strings",
 			"scope": [
 				"string.quoted.double",
-				"string.quoted.single"
+				"string.quoted.single",
+				"string.template.js"
 			],
 			"settings": {
 				"foreground": "#269186"
