@@ -81,7 +81,10 @@
 		},		
 		{
 			"name": "Keyword",
-			"scope": ["keyword"],
+			"scope": ["keyword", 
+				"punctuation.definition.typeparameters.begin.tsx",
+				"punctuation.definition.typeparameters.end.tsx"
+			],
 			"settings": {
 				"foreground": "#859900"
 			}
@@ -162,7 +165,7 @@
 		},
 		{
 			"name": "Function argument",
-			"scope": ["variable.parameter"],
+			"scope": ["variable.parameter", "meta.type.parameters.tsx", "support.type.primitive.tsx"],
 			"settings": {
 				"foreground": "#A57800"
 			}
@@ -175,7 +178,8 @@
 				"punctuation.separator.comma.js",
 				"meta.function.expression.js",
 				"meta.function-call.js",
-				"source.js"
+				"source.js",
+				"meta.function-call.tsx"
 			],
 			"settings": {
 				"foreground": "#93A1A1"
@@ -467,7 +471,8 @@
 		{
 			"name": ".",
 			"scope": [
-				"punctuation.accessor"
+				"punctuation.accessor",
+				"meta.export.default.ts"
 			],
 			"settings": {
 				"foreground": "#93A1A1"
