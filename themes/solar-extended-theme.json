@@ -9,7 +9,8 @@
 		{
 			"scope": [
 				"meta.embedded",
-				"source.groovy.embedded"
+				"source.groovy.embedded",
+				"variable.other.alias.graphql"
 			],
 			"settings": {
 				"foreground": "#2AA198"
@@ -25,7 +26,7 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": ["string"],
 			"settings": {
 				"foreground": "#269186"
 			}
@@ -53,7 +54,8 @@
 				"punctuation.definition.template-expression.begin.js",
 				"punctuation.definition.template-expression.end.js",
 				"meta.template.expression.js",
-				"meta.embedded.line.js"
+				"meta.embedded.line.js",
+				"meta.brace.round.graphql"
 			],
 			"settings": {
 				"foreground": "#268BD2"
@@ -63,7 +65,7 @@
 			"name": "Variable Function",
 			"scope": [
 				"variable.function.js",
-				"string.interpolated"
+				"string.interpolated",
 			],
 			"settings": {
 				"foreground": "#ff00cc"
@@ -73,7 +75,9 @@
 			"name": "Variable Other",
 			"scope": [
 				"variable.other",
-				"variable.other.member"
+				"variable.other.member",
+				"meta.arguments",
+				"meta.brace.curly.graphql"
 			],
 			"settings": {
 				"foreground": "#93A1A1"
@@ -83,7 +87,7 @@
 			"name": "Keyword",
 			"scope": ["keyword", 
 				"punctuation.definition.typeparameters.begin.tsx",
-				"punctuation.definition.typeparameters.end.tsx"
+				"punctuation.definition.typeparameters.end.tsx",
 			],
 			"settings": {
 				"foreground": "#859900"
@@ -110,7 +114,7 @@
 		// },		
 		{
 			"name": "Variable start",
-			"scope": ["punctuation.definition.variable"],
+			"scope": ["punctuation.definition.variable", "meta.selections"],
 			"settings": {
 				"foreground": "#859900"
 			}
